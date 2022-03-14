@@ -13,7 +13,7 @@ def solution(n):
         # answer 리스트에 append를 이용해서 정수형태로 하나씩 넣어주기
         
     answer.reverse() 
-    # 내림차순으로 정렬하기
+    # 내림차순으로 정렬
 
     return answer 
 
