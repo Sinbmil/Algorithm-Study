@@ -10,7 +10,7 @@ def solution(n):
     # 문자열로 강제 타입 변환
     for i in arr: 
         answer.append(int(i)) 
-        # answer 배열에 append를 이용해서 정수형태로 하나씩 넣어주기
+        # answer 리스트에 append를 이용해서 정수형태로 하나씩 넣어주기
         
     answer.reverse() 
     # 내림차순으로 정렬하기
