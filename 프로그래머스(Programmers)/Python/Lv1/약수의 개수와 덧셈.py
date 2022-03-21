@@ -4,8 +4,6 @@
 # 정확성 테스트 케이스 7개 중 7개 성공
 # 총점 100.0
 
-import math # sqrt를 위한 라이브러리
-
 def solution(left, right):
     answer = 0
     for i in range(left,right+1): # left부터 right까지
