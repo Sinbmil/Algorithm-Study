@@ -10,7 +10,7 @@ class Solution {
 	boolean solution(String s) {
 	        boolean answer = true;
 	        char[] str = s.toCharArray();
-	        // toCharArray()를 통해 문자열을 char형 배열로 바꿔준다
+	        // toCharArray()를 통해 문자열을 char형 배열로 바꿔주기
 	        int pcount = 0; // p의 개수를 나타내는 변수
 	        int ycount = 0; // y의 개수를 나타내는 변수
 	        
