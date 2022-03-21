@@ -18,3 +18,4 @@ def solution(absolutes, signs):
 absolutes = [4,7,12]
 signs = [True,False,True]
 print (solution(absolutes,signs))
+# 출력결과: 9
