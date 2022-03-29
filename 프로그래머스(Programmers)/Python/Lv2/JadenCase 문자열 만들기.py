@@ -23,7 +23,7 @@ def solution(s):
             else:
                 answer += i.lower()
                 cnt +=1
-                # 나머지는 소문자로 만들ㅇ더서 answer에 더하기
+                # 나머지는 소문자로 만들어서 answer에 더하기
         else:
             answer += i.lower()
             cnt +=1
