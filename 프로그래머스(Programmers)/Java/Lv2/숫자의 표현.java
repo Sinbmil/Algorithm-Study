@@ -3,6 +3,7 @@
  * 문제링크:https://programmers.co.kr/learn/courses/30/lessons/12924
 
  * 정확성 테스트 케이스 18개 중 18개 성공
+ * 효율성 테스트 케이스  6개 중  6개 성공
  * 총점 100.0
 */
 
