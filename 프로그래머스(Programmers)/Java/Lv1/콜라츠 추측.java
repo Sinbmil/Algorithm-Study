@@ -12,23 +12,23 @@ class Solution {
 		
         do {
               if(n==1) // n이 1이면 종료 
-	     break;
+	         break;
             
               ++answer; // answer 증가
             
-	 if(n%2 == 0){ // n이 짝수면 2 나누기
-	      n = n/2; 
-	      continue;
-	  }
-	  else if(n%2 == 1) { // n이 홀수면 3곱하고 1더하기
-	       n = n*3+1;
-	       continue;
-	  }
+	      if(n%2 == 0){ // n이 짝수면 2 나누기
+	         n = n/2; 
+	         continue;
+	      }
+	      else if(n%2 == 1) { // n이 홀수면 3곱하고 1더하기
+	          n = n*3+1;
+	          continue;
+	      }
 			
-	  if(answer == 500) { // answer가 500이 되면 -1을 넣어주고 종료
-	       answer = -1;
-	       break;
-	   }
+	      if(answer == 500) { // answer가 500이 되면 -1을 넣어주고 종료
+	          answer = -1;
+	          break;
+	       }
 	   }while(n != 1); // n이 1이 될 때까지
 		
 	return answer;
