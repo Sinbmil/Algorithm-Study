@@ -22,7 +22,7 @@ class Solution {
 			answer = n;
 			break;
 		  }
-	           }
+	 }
         return answer;
     }
 }
