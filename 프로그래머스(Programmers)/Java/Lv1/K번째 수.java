@@ -13,14 +13,14 @@ class Solution {
          int n = 0;
 		
          for(int i = 0; i<commands.length; i++) {
-	  int[] slice = new int[commands[i][1] - commands[i][0]+1]; 
-	  for (int j = 0; j < slice.length; j++) {
+	     int[] slice = new int[commands[i][1] - commands[i][0]+1]; 
+	     for (int j = 0; j < slice.length; j++) {
 	         slice[j] = array[j + commands[i][0]-1];
 	         // 이중 반복문으로 데이터르 잘라서 slice 배열에 넣어주기
-	   }
-	   Arrays.sort(slice); // 오름차순 정렬 
-	   answer[i] = slice[commands[i][2]-1];  // K번째 수를 정답 배열에 넣음
-           }
+	     }
+	     Arrays.sort(slice); // 오름차순 정렬 
+	     answer[i] = slice[commands[i][2]-1];  // K번째 수를 정답 배열에 넣음
+          }
         return answer;
     }
 }
