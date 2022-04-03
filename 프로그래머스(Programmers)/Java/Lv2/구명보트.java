@@ -14,7 +14,7 @@ class Solution {
         int answer = 0;
         int idx = 0;
 		
-        Arrays.sort(people); // people 배열 정리하기
+        Arrays.sort(people); // people 배열 정렬하기
 		
         for(int i = people.length-1; i>= idx; i--) {
             // 몸무게가 가장 무거운 사람부터
