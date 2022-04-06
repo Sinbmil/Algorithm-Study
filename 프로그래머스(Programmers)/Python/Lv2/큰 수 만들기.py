@@ -23,3 +23,4 @@ def solution(number,k):
 number = "1924"
 k = 2
 print (solution(number,k))
+# 출력 결과: 94
