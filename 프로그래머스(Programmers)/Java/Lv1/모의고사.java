@@ -20,9 +20,9 @@ class Solution {
         int[] answer = {};
 		
         for(int i=0; i<answers.length; i++){
-             if(first[i%5] == answers[i]){scores[0]++;} // 1번 수포자는 5번씩 반복
-	if(second[i%8] == answers[i]){scores[1]++;} // 2번 수포자는 8번씩 반복
-	if(third[i%10] == answers[i]){scores[2]++;} // 3번 수포자는 10번씩 반복
+             if(first[i%5] == answers[i]){scores[0]++;}  // 1번 수포자는 5번씩 반복
+	     if(second[i%8] == answers[i]){scores[1]++;} // 2번 수포자는 8번씩 반복
+	     if(third[i%10] == answers[i]){scores[2]++;} // 3번 수포자는 10번씩 반복
         }
 		
         int max = 0; // max값 구하기
@@ -38,7 +38,7 @@ class Solution {
          answer = new int[list.size()];
 		
          for(int i =0; i<answer.length; i++) {
-	   answer[i] = list.get(i);
+	     answer[i] = list.get(i);
          }
         
         return answer;
