@@ -11,8 +11,8 @@ class Solution {
         String[] numbers = {"4", "1", "2"};
         String answer = "";
         while(n>0) {
-    	answer = numbers[n%3] + answer;   // 3으로 나눈 나머지에 answer을 연결
-    	n=(n-1)/3;                        // n은 1을 빼고 3으로 나눠주기 
+    	  answer = numbers[n%3] + answer;   // 3으로 나눈 나머지에 answer을 연결
+    	  n=(n-1)/3;                        // n은 1을 빼고 3으로 나눠주기 
         }
         return answer;
     }
