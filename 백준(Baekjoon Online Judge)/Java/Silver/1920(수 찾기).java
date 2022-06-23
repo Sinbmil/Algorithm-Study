@@ -29,8 +29,8 @@ public class Test {
 				}
 				  if(A[mid]>key) 
 					  high = mid-1;
-                                                      else 
-                	                                         low = mid+1;
+                                  else 
+                	                  low = mid+1;
 			}
 			System.out.println(ans);
 		}
