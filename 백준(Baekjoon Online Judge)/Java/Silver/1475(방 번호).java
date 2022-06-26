@@ -39,8 +39,8 @@ public class Test {
 		}
 
 		ans = (int) Math.max(max, six_nine); // 둘 중의 최대값 구하기
-        if(num==0) 
-        	ans = 1;
-        System.out.println(ans);
+		if(num==0) 
+			ans = 1;
+		System.out.println(ans);
     }
 }
