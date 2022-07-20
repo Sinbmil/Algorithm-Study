@@ -1,3 +1,11 @@
+/*
+ * 프로그래머스 Lv1 - 로또의 최고 순위와 최저 순위
+ * 문제링크: https://programmers.co.kr/learn/courses/30/lessons/77484
+
+ * 정확성 테스트 케이스 15개 중 15개 성공
+ * 총점 100.0
+*/
+
 class Solution {
     public int[] solution(int[] lottos, int[] win_nums) {
         int answer[] = new int[2];
