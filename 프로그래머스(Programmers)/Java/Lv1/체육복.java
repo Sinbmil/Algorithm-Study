@@ -15,7 +15,7 @@ class Solution {
         Arrays.sort(lost);
         Arrays.sort(reserve);
         
- 	    // 여벌의 체육복을 가져온 학생이 도난당한 경우
+ 	// 여벌의 체육복을 가져온 학생이 도난당한 경우
         for(int i=0; i<lost.length; i++){
             for(int j=0; j<reserve.length; j++){
             	// 자기 자신이 포함되는지 체크
