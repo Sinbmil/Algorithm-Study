@@ -13,13 +13,13 @@ class Solution {
         String answer = "";
      
         // 1단계 - 대문자들 소문자로 치환
-		new_id = new_id.toLowerCase();
+	new_id = new_id.toLowerCase();
 	
-		// 2단계 - 알파벳 소문자, 숫자, 빼기(-), 밑줄(_), 마침표(.)를 제외한 모든 문자를 제거
-		new_id = new_id.replaceAll("[^a-z0-9-_.]","");
+	// 2단계 - 알파벳 소문자, 숫자, 빼기(-), 밑줄(_), 마침표(.)를 제외한 모든 문자를 제거
+	new_id = new_id.replaceAll("[^a-z0-9-_.]","");
 		
-		// 3단계 - 마침표(.)가 2번 이상 연속된 부분을 하나의 마침표(.)로 치환
-		new_id = new_id.toString().replace("..", ".");
+	// 3단계 - 마침표(.)가 2번 이상 연속된 부분을 하나의 마침표(.)로 치환
+	new_id = new_id.toString().replace("..", ".");
         while (new_id.contains("..")) {
         	new_id = new_id.replace("..", ".");
         }
