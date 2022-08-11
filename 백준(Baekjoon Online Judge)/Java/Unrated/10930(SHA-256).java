@@ -11,14 +11,14 @@ public class Test {
 		Scanner sc = new Scanner(System.in);
 		String s = sc.next();
 	
-        MessageDigest md = MessageDigest.getInstance("SHA-256");
-        md.update(s.getBytes());
-
-        StringBuilder builder = new StringBuilder();
-        for (byte b : md.digest()) {
-            builder.append(String.format("%02x", b));
-        }
+                MessageDigest md = MessageDigest.getInstance("SHA-256");
+                md.update(s.getBytes());
+  
+                StringBuilder builder = new StringBuilder();
+                for (byte b : md.digest()) {
+                    builder.append(String.format("%02x", b));
+                }
         
-        System.out.println(builder.toString());
+               System.out.println(builder.toString());
     }
 }
