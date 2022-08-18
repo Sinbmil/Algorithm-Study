@@ -6,9 +6,9 @@ import java.util.*;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		 Scanner sc = new Scanner(System.in);
-		 int K = sc.nextInt(); // 이미 가지고 있는 랜선의 개수
+	 // TODO Auto-generated method stub
+	 Scanner sc = new Scanner(System.in);
+	 int K = sc.nextInt(); // 이미 가지고 있는 랜선의 개수
          long N = sc.nextLong(); // 필요한 랜선의 개수
          long arr[] = new long[K];
          long max = 0;
