@@ -2,7 +2,7 @@
 // 문제링크: https://www.acmicpc.net/problem/1978
 
 import java.util.*;
-public class Test {
+public class Main {
 	public static void main(String[] args) {
 	    Scanner sc = new Scanner(System.in);
 	    int n = sc.nextInt(); // 숫자 개수

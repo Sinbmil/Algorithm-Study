@@ -5,7 +5,7 @@ import java.util.*;
 import java.security.NoSuchAlgorithmException;
 import java.security.MessageDigest;
 
-public class Test {
+public class Main {
 	public static void main(String[] args) throws NoSuchAlgorithmException  {
 		
 		Scanner sc = new Scanner(System.in);
